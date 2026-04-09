@@ -4,7 +4,7 @@ Open-Meteo is designed to be run distributed across many servers, data-centers a
 
 The synchronization is using HTTP to keep API servers up to date automatically. In this configuration the API nodes "pull" the Open-Meteo database every couple of minutes from a server. The server implements the S3 file list API, clients pull this list of files and compare it its local files. Any missing or newly modified file will be downloaded from the server via HTTP.
 
-The sync code can be found in [SyncCommand.swift](/Sources/App/Commands/SyncCommand.swift). As a server any S3 compatible endpoint can be used. The integrated S3 server part is in [S3DataController.swift](/Sources/App/Controllers/S3DataController.swift)
+The sync code can be found in [SyncCommand.swift](../Sources/App/Commands/SyncCommand.swift). As a server any S3 compatible endpoint can be used. The integrated S3 server part is in [S3DataController.swift](../Sources/App/Controllers/S3DataController.swift)
 
 ## Configuring the Server
 
