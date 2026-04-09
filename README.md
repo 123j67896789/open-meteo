@@ -131,7 +131,7 @@ For other enquiries please contact info@open-meteo.com
 
 ## Run your own API
 
-Instructions to use Docker to run your own weather API are available in the [getting started guide](/docs/getting-started.md).
+Instructions to use Docker to run your own weather API are available in the [getting started guide](docs/getting-started.md).
 
 ## Terms & Privacy
 
